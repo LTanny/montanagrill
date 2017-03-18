@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+sitemap: http://montana-grill.com.ua/sitemap.xml
+Host:http://montana-grill.com.ua/

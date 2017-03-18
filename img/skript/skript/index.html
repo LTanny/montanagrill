@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="ru">
+<title>Модальные окна</title>
+<style>
+p {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:10px;}
+h2 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;}
+</style>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+<script type="text/javascript" src="fancybox/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function() { 
+$("a.first").fancybox(); 
+$("a.two").fancybox(); 
+$("a.video").fancybox({"frameWidth":560,"frameHeight":340}); 
+$("a.content").fancybox({"frameWidth":600,"frameHeight":300}); 
+});
+</script>
+
+
+
+
+</head>
+
+<body>
+ <center>       
+
+<h2>Одиночное изображение в модальном окне.</h2>
+
+
+
+<div align="center">
+<a class="first" title="Сайт фантазия" href="images/sait600.jpg"><img src="images/sait180.jpg" border="0" /></a>
+</div> 
+
+
+<br><br>
+<h2>Серия изображений.</h2>
+
+<div align="center">
+
+<a class="two" rel="group" title="Глубоководные рыбы" href="images/okon600.jpg"><img src="images/okon180.jpg" border="0"/></a>
+
+<a class="two" rel="group" title="Пещерные рыбы" href="images/kit600.jpg"><img src="images/kit180.jpg" border="0"/></a>
+
+<a class="two" rel="group" title="Чудные рыбы" href="images/som600.jpg"><img src="images/som180.jpg" border="0"/></a>
+
+</div>
+
+<br><br>
+
+
+
+</center>
+</body>
+</html>

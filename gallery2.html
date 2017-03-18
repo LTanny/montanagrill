@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> </title>
+	<meta charset="utf-8">
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap-responsive.css">
+    <link href="style.css" rel="stylesheet">
+</head>	
+
+
+    <body>
+	<div id="wrap">
+		
+		<div id="header">
+			<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html">Головна</a></li>
+        <li class="active"><a href="gallery.html">Галерея</a></li>
+       <li><a href="#">Меню ресторана</a></li>
+		 <li><a href="#">Контакти</a></li>
+      </ul>
+    
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+		
+		
+		</div>
+		<!-- конец heder -->
+
+<div class="row">	
+<div class="col-md-12 col-lg-12">
+	
+	<div id="containerGallery2">
+		<div id="productsGallery">
+			<div id="products">
+				<div class="slides_container">
+					
+					<img src="images/gallery/gallery2.gif">
+					<img src="images/gallery/gallery3.gif">
+					<img src="images/gallery/gallery4.gif">
+					<img src="images/gallery/gallery1.gif">
+					<img src="images/gallery/gallery5.gif">
+					<img src="images/gallery/gallery6.gif">
+					<img src="images/gallery/gallery7.gif">
+					<img src="images/gallery/gallery8.gif">
+					<img src="images/gallery/gallery9.gif">
+					<img src="images/gallery/gallery10.gif">
+					<img src="images/gallery/gallery11.gif">
+					<img src="images/gallery/gallery12.gif">
+					<img src="images/gallery/gallery13.gif">
+					<img src="images/gallery/gallery14.gif">
+					<img src="images/gallery/gallery15.gif">
+					<img src="images/gallery/gallery16.gif">
+					<img src="images/gallery/gallery17.gif">
+				</div>
+				<ul class="pagination">
+					<li><a href="#"><img src="images/gallery/gallery2.gif" width="100" alt="1144953 1 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery3.gif" width="100" alt="1144953 2 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery4.gif" width="100" alt="1144953 3 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery1.gif" width="100" alt="1144953 4 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery5.gif" width="100" alt="1144953 5 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery6.gif" width="100" alt="1144953 6 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery7.gif" width="100" alt="1144953 7 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery8.gif" width="100" alt="1144953 8 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery9.gif" width="100" alt="1144953 9 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery10.gif" width="100" alt="1144953 10 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery11.gif" width="100" alt="1144953 11 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery12.gif" width="100" alt="1144953 12 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery13.gif" width="100" alt="1144953 13 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery14.gif" width="100" alt="1144953 14 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery15.gif" width="100" alt="1144953 15 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery16.gif" width="100" alt="1144953 16 2x"></a></li>
+					<li><a href="#"><img src="images/gallery/gallery17.gif" width="100" alt="1144953 17 2x"></a></li>
+
+
+
+
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+</div>	
+
+</div>		
+		
+
+   
+     
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">До верху</a></p>
+        <p> <a href="#">MONTANA GRILL</a> · <a href="index.html">Головна</a> · <a href="#">Контакти</a></p>
+      </footer>
+
+    
+		
+
+
+	
+	
+	</div>
+	<!-- конец wrap -->
+	<!-- конец footer -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="js/jquery-1.4.4.min.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#products').slides({
+				preload: true,
+				preloadImage: 'images/loading.gif',
+				effect: 'slide, fade',
+				crossfade: true,
+				slideSpeed: 200,
+				fadeSpeed: 500,
+				
+				generatePagination: false
+			});
+		});
+	</script>	
+    </body>
+
+</html>
